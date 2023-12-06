@@ -1,0 +1,40 @@
+/* content-1 */
+.content1Left {
+  width: 50%;
+}
+.content1Head {
+  font-size: 55px;
+
+}
+.content1Img {
+  width: 40%;
+}
+.content1Text {
+  font-size: 20px;
+}
+@media only screen and (max-width: 992px) {
+  .content1 {
+    flex-direction: column;
+  }
+  .content1Left {
+    width: 100%;
+  }
+  .content1Head {
+    font-size: 55px;
+    padding: 25px 15px 0px 15px;
+  }
+  .content1Img {
+    width: 100%;
+  }
+}
+@media only screen and (max-width: 600px) {
+  .content1Head {
+    font-size: 22px;
+  }
+  .content1Text {
+    padding: 0px 15px;
+    font-size: 16px;
+  }
+}
+/* content-9*/
+
